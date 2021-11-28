@@ -1,9 +1,12 @@
 
+import Routes from './routes';
+
 function App() {
+
   return (
-    <div>
-      <p>Hello world</p>
-    </div>
+
+   <Routes/>
+   
   );
 }
 
