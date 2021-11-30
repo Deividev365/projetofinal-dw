@@ -1,13 +1,13 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 
 
-function Landing() {
+export function Landing() {
     return(
         
-<Link to="/">Teste</Link>
+        <div>
+            <h1>Hello world</h1>
+        </div>    
 
     )
 }
 
-export default Landing;
