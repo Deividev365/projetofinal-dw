@@ -5,7 +5,7 @@ export function Login() {
     return(
         
         <div>
-            <h1>Hello world 2</h1>
+            <h1>Aqui é a tela de login</h1>
         </div>    
 
     )
