@@ -4,8 +4,16 @@ import React from 'react';
 export function Login() {
     return(
         
-        <div>
-            <h1>Aqui é a tela de login</h1>
+        <div className="Form-Login">
+
+         <label>Email</label>
+         <input type="text" />
+
+
+         <label>Senha</label>
+         <input type="number" />
+          
+
         </div>    
 
     )
