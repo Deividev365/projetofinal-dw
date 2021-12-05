@@ -26,20 +26,15 @@ export function Login() {
           </div>
 
 
-          <Link to="/app" className="primary">
-              
-                <p>ENTRAR</p> 
-
+          <Link to="/WeatherApp" className="primary">
+                <span>LOGIN</span> 
           </Link>
         
         </form>
+
+
         <Link to="/">
-        <FiArrowLeft size={58}></FiArrowLeft>
-        </Link>
-
-
-        <Link to="/" className="secondary"> 
-
+          <FiArrowLeft className="back-home" size={50}></FiArrowLeft>
         </Link>
 
 

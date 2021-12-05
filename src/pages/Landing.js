@@ -25,9 +25,10 @@ export function Landing() {
             <div className="button-wrapper">
 
 
-            <Link to="/login">
-                <p>Login</p>
+            <Link className="entrar" to="/login">
+                ENTRAR
             </Link>
+
             </div>
        
 

@@ -1,13 +1,12 @@
 import React from 'react';
 
+import '../styles/pages/weatherApp.css';
 
-
-function WeatherApp() {
+export function WeatherApp() {
     return(
- 
-            <h1>teste 2</h1>
- 
-    )
+       <div>
+            <h1>Weather App section</h1>
+      </div>
+    );
 }
 
-export default WeatherApp;
