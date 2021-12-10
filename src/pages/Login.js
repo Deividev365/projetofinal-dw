@@ -22,9 +22,8 @@ export function Login() {
 
           <div className="input-group">
             <label htmlFor="password">Senha</label>
-            <input type="password" name="password" />
+            <input required type="password" name="password" />
           </div>
-
 
           <Link to="/WeatherApp" className="primary">
                 <span>LOGIN</span> 
@@ -32,7 +31,7 @@ export function Login() {
         
         </form>
 
-
+                
         <Link to="/">
           <FiArrowLeft className="back-home" size={50}></FiArrowLeft>
         </Link>

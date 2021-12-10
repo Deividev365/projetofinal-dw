@@ -27,8 +27,8 @@ export function WeatherApp() {
   }
 
   const dateBuilder = (d) => {
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let months = ["Janeiro", "Fevereir", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    let days = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"];
 
     let day = days[d.getDay()];
     let date = d.getDate();
@@ -66,7 +66,6 @@ export function WeatherApp() {
             <div className="temp">
               {Math.round(weather.main.temp)}°c
             </div>
-            <div className="weather">{weather.weather[0].main}</div>
           </div>
         </div>
         ) : ('')}
